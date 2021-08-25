@@ -30,3 +30,7 @@ class Formatting:
     # Linters are programs that analyze code and flag errors, then provide suggestion on how to fix the error
     # ex: flake8
     # there are autoformatters as black , than can be run in the terminal
+
+
+str = "This article is written in {}"
+print(str.format("Python"))
